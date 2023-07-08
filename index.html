@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img src="logo_company_small.png" alt="png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ramazan Said Galip
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Giriş Yap</a></li>
+                  <li><a class="dropdown-item" href="#">EFT</a></li>
+                  <li><a class="dropdown-item" href="#">Ödeme Yap</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="akbanklogo.png" alt="png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hakkımızda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">İletişim</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              <a href="#">Bütün Teklifler</a>
+            </span>
+          </div>
+        </div>
+      </nav>
+      <div class="container mt-5 d-xl-flex">
+        <ul class="list-group shadow style-responsive-left">
+          <li class="list-group-item d-flex justify-content-center fw-bold">
+            <i class="bi bi-briefcase-fill"></i>&nbsp;ISB-001373837  İSTANBUL/BEYLİKDÜZÜ
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary">Ekspertiz Ücreti</div>
+              <div class="fw-bold text-secondary">1.000.000 TL</div>
+            </ul>
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary">Başlangıç Ücreti</div>
+              <div class="fw-bold text-secondary">500.000 TL</div>
+            </ul>
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary">En Yüksek Teklif</div>
+              <div class="fw-bold">3.000.000 TL</div>
+            </ul>
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary align-self-center">Son Teklif Tarihi</div>
+              <div class="d-flex fw-bold flex-column text-center">
+                <div>08.07.2023</div>
+                <div>12:00</div>
+              </div>
+            </ul>
+          </li>
+        </ul>
+        <div
+          class="d-flex justify-content-center align-items-center flex-column style-responsive-center my-3"
+        >
+          <i class="bi bi-house text-danger h2"></i>
+          <div class="fw-bold text-danger">Emlak Detayı</div>
+        </div>
+        <ul
+          class="list-group shadow align-self-center style-responsive-right"
+          style="height: fit-content"
+        >
+          <a
+            href="#id1"
+            data-bs-toggle="collapse"
+            style="text-decoration: none"
+          >
+            <li class="list-group-item d-flex text-center">
+              <div class="fw-bold" style="width: 40%">Gelen Teklifler</div>
+              <div class="text-secondary" style="width: 25%">Telefon Numarası</div>
+              <div class="text-secondary" style="width: 35%">Durum</div>
+            </li>
+          </a>
+          <div id="id1" class="collapse show">
+            <li class="list-group-item d-flex text-center">
+              <div style="width: 40%">Ramazan Said Galip</div>
+              <div style="width: 25%">0505 559 59 65</div>
+              <div class="d-flex" style="width: 35%">
+                <div class="text-secondary">Mevcut Teklif</div>
+                <div class="dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-danger"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                  >
+                    &nbsp;500.000
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">600.000</a></li>
+                    <li><a class="dropdown-item" href="#">700.000</a></li>
+                    <li><a class="dropdown-item" href="#">1.000.000</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item d-flex text-center">
+              <div style="width: 40%">Esma Galip</div>
+              <div style="width: 25%">0507 874 00 75</div>
+              <div class="d-flex" style="width: 35%">
+                <div class="text-secondary">Mevcut Teklif</div>
+                <div class="dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-danger"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                  >
+                    &nbsp;900.000
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">1.000.000</a></li>
+                    <li><a class="dropdown-item" href="#">1.200.000</a></li>
+                    <li><a class="dropdown-item" href="#">1.300.000</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item d-flex text-center">
+              <div style="width: 40%">Elisa Galip</div>
+              <div style="width: 25%">05091230375</div>
+              <div class="d-flex" style="width: 35%">
+                <div class="text-secondary">Mevcut Teklif</div>
+                <div class="dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-danger"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                  >
+                    &nbsp;500.000
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">600.000</a></li>
+                    <li><a class="dropdown-item" href="#">750.000</a></li>
+                    <li><a class="dropdown-item" href="#">900.000</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 d-xl-flex">
+        <ul class="list-group shadow style-responsive-left">
+          <li class="list-group-item d-flex justify-content-center fw-bold">
+            <i class="bi bi-briefcase-fill"></i>&nbsp;ISB-002494493849 KIRŞEHİR/KAMAN
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary">Ekspertiz Ücreti</div>
+              <div class="fw-bold text-secondary">700.000 TL</div>
+            </ul>
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary">Başlangıç Teklifi</div>
+              <div class="fw-bold text-secondary">450.000 TL</div>
+            </ul>
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary">En Yüksek Teklif</div>
+              <div class="fw-bold">750.000 TL</div>
+            </ul>
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary align-self-center">Son Teklif Tarihi</div>
+              <div class="d-flex fw-bold text-danger flex-column text-center">
+                <div>17.04.2023</div>
+                <div>22:00</div>
+              </div>
+            </ul>
+          </li>
+        </ul>
+        <div
+          class="d-flex justify-content-center align-items-center flex-column style-responsive-center my-3"
+        >
+          <i class="bi bi-house text-danger h2"></i>
+          <div class="fw-bold text-danger">Emlak Detayı</div>
+        </div>
+        <ul
+          class="list-group shadow align-self-center style-responsive-right"
+          style="height: fit-content"
+        >
+          <a
+            href="#id2"
+            data-bs-toggle="collapse"
+            style="text-decoration: none"
+          >
+            <li class="list-group-item d-flex text-center">
+              <div class="fw-bold" style="width: 40%">Gelen Teklifler</div>
+              <div class="text-secondary" style="width: 25%">Telefon Numarası</div>
+              <div class="text-secondary" style="width: 35%">Durum</div>
+            </li>
+          </a>
+          <div id="id2" class="collapse show">
+            <li class="list-group-item d-flex text-center">
+              <div style="width: 40%">Seyfullah Galip</div>
+              <div style="width: 25%">0(555)53426209</div>
+              <div class="d-flex" style="width: 35%">
+                <div class="dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-danger fw-bold"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                  >
+                   işlem yapılacak...
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Ödeme Yap</a></li>
+                    <li><a class="dropdown-item" href="#">Taksitle Ödeme</a></li>
+                    <li><a class="dropdown-item" href="#">Nakit Ödeme</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 d-xl-flex">
+        <ul class="list-group shadow style-responsive-left">
+          <li class="list-group-item d-flex justify-content-center fw-bold">
+            <i class="bi bi-briefcase-fill"></i>&nbsp;ISB-00309489 SİİRT/ŞİRVAN
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary">Ekspertiz Ücreti</div>
+              <div class="fw-bold text-secondary">10.000 TL</div>
+            </ul>
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary">Başlangıç Fiyatı</div>
+              <div class="fw-bold text-secondary">25.000</div>
+            </ul>
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-between">
+              <div class="text-secondary">Son Teklif Tarihi</div>
+              <div class="d-flex flex-column text-center fw-bold">
+                <div>20.04.2022</div>
+                <div>00:00</div>
+              </div>
+            </ul>
+          </li>
+          <li class="list-group-item">
+            <ul class="list-group-item d-flex justify-content-center">
+              <div class="fw-bold text-danger-emphasis">
+                Teklif süresi sona erdi.(4 gün)
+              </div>
+            </ul>
+          </li>
+        </ul>
+        <div
+          class="d-flex justify-content-center align-items-center flex-column style-responsive-center my-3"
+        >
+          <i class="bi bi-house text-danger h2"></i>
+          <div class="fw-bold text-danger">Emlak Detayı</div>
+        </div>
+        <ul
+          class="list-group shadow align-self-center style-responsive-right"
+          style="height: fit-content"
+        >
+          <a
+            href="#id3"
+            data-bs-toggle="collapse"
+            style="text-decoration: none"
+          >
+            <li class="list-group-item d-flex text-center">
+              <div class="fw-bold" style="width: 35%">Gelen Teklifler</div>
+            </li>
+          </a>
+          <div id="id3" class="collapse show">
+            <li class="list-group-item d-flex text-center">
+                <div class="align-self-center" style="width:35%">Tahsin Galip</div>
+                <div style="width:40%">
+                <div class="d-flex justify-content-between">
+                    <div class="text-secondary">Uygulama Tarihi</div>
+                    <div class="fw-bold">30.04.2022</div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <Bid class="text-secondary"></Bid Amount</div>
+                    <div class="fw-bold">-</div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="text-secondary">E-mail</div>
+                    <div class="fw-bold">ramazansaidgalip@gmail.com</div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="text-secondary">Telefon Numarası </div>
+                    <div class="fw-bold">055164749895</div>
+                </div>
+                </div>
+                <div class="d-flex justify-content-center justify-content-between flex-column" style="width:25%">
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle text-danger fw-bold" data-bs-toggle="dropdown" href="#">Teklif Verilmedi</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Teklif Ver </a></li>
+                        <li><a class="dropdown-item" href="#">Satın Al</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="btn btn-danger text-white btn-sm align-self-center" style="width:85%">Tüm Detaylar</div>
+                </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </section>
+    
+</body>
+</html>
